@@ -8,6 +8,12 @@ const options = {
       version: '1.0.0',
       description: 'REST API for event creation, management, user registration, and authentication.',
     },
+    servers: [
+      {
+        url: 'https://vscode-internal-731-dev.dev01.cloud.kavia.ai:3001',
+        description: 'Production server'
+      }
+    ],
     components: {
       securitySchemes: {
         bearerAuth: {
